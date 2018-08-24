@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 .container {
   width: 960px;
   margin: 0px auto;
@@ -88,13 +93,14 @@ table, tr, th, td {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 0;
-
+}
 /* ------------------------------- */
 /* Media Queries */
 /* ------------------------------- */
 
 
 /* -----------------------------------For navbar-------------------------- */
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
