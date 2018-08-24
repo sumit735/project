@@ -6,17 +6,12 @@
 table, tr, th, td {
   border: 1px solid black;
   /* padding: 10px; */
+  width: "984px";
+  /* text-align: center; */
+    border-spacing: 5px;
+    border-collapse: separate;
   
 }
-@media screen and (max-width: 959px) {
-  .container {
-    width: 100%;
-  }
-  table {
-    width: 80%;
-  }
-}
-
 @media screen and (max-width: 959px) {
   .container {
     width: 100%;
@@ -28,9 +23,30 @@ table, tr, th, td {
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 500px;
+    width: 400px;
   }
-  table,tr,td {
+  table {
+    
+    font-size: 10px;
+  }
+  tr td{
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
     width: 300px;
+  }
+  table {
+    width: 100%;
+    font-size: 8px;
+    float: left;
+  }
+
+  table tr td {
+    padding: 0;
   }
 }
