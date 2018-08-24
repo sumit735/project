@@ -26,8 +26,11 @@ table, tr, th, td {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .container {
-    width: 320px;
+    width: 500px;
+  }
+  table,tr,td {
+    width: 300px;
   }
 }
